@@ -17,6 +17,7 @@ app.use('/posts', PostRouter);
 app.get('/',(req,res) =>{
     res.send('Hello it is a post page')
 })
+
 CONNECTION_URL="mongodb+srv://arunak:arunak_123@cluster0.jvg8i.mongodb.net/?retryWrites=true&w=majority"
 
 const PORT = process.env.PORT || 5000;
